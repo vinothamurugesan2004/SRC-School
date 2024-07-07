@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Risque&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100..800&family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Belanosima:wght@400;600;700&family=Cagliostro&family=Linden+Hill:ital@0;1&family=Risque&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Belanosima:wght@400;600;700&family=Cagliostro&family=Linden+Hill:ital@0;1&family=Risque&display=swap" rel="stylesheet">
+
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="transport.html">Transport</a></li>
+            <li><a href="form.html">Application Form</a></li>
+           <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact">
+        <div class="ctn">
+            <h2>Contact Us</h2><br>
+            <p>Thank You for your interest in our SRC School..!<br>
+                We are here to help and answer any questions you might have. We look forward to hearing from you!</p>
+        </div>
+
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="img1">
+                        <img src="images/locate1.png" width="30" height="30"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>123, <br>ABC Nagar,<br> Erode-638000<br></p>
+                    </div>
+                </div>
+         
+
+                <div class="box">
+                    <div class="icon"><i class="img2"></i>
+                        <img src="images/phone1.png" width="30" height="30">
+                    </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>Main Office : (123) 4567 890</p>
+                            <p>Admission : (123) 4567 891</p>
+                        </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="img3"></i>
+                        <img src="images/mail3.png" width="30" height="30">
+                    </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>General Inquires : srcinfo@gmail.com</p>
+                            <p>Admission : srcadmission@gmail.com</p>
+                        </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="img3"></i>
+                        <img src="images/hour2.png" width="30" height="30">
+                    </div>
+                        <div class="text">
+                            <h3>Office Hours</h3>
+                            <p>Monday - Sunday : 08:00 AM - 04:00 PM</p>
+                            <p>Saturday - Sunday : Leave</p>
+                        </div>
+                </div>
+
+            </div>
+
+            <div class="enquiryform">
+                <form action="enquiry.py" method="post">
+                    <h2>Send Enquiry</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="number" name="Phone" required="required">
+                        <span>Phone</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <textarea name="message" required="required"></textarea>
+                        <span>Type Your Message</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Enquire Now">
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>

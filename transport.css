@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 15px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    color: orangered;
+}
+
+h2{
+    margin: 5px;
+    padding: 10px;
+    color: sienna;
+    font-family: "Open Sans", sans-serif;
+}
+
+h3{
+    margin: 20px;
+    padding: 0px;
+    color: slategrey;
+    font-family: "Ubuntu", sans-serif;
+}
+
+ol{
+    margin: 1px;
+    padding: 1px;
+}
+
+ol li{
+    padding: 0px;
+    margin: 20px;
+    font-family: "DM Sans", sans-serif;
+    overflow: hidden;
+}
+
+p{
+    margin: 10px;
+    padding: 5px;
+    font-family: "Josefin Sans", sans-serif;
+}

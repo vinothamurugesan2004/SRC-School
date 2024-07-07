@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: orangered;
+    font-family: "Signika Negative", sans-serif;
+    margin: 20px;
+}
+
+h2{
+    color: slategrey;
+    text-align: center;
+    font-family: "Alegreya Sans SC", sans-serif;
+    margin: 20px;
+}
+
+p{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+}

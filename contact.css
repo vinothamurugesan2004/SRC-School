@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .ctn{
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.contact .ctn h2{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Averia Sans Libre", sans-serif;
+    color: orangered;
+}
+
+.contact .ctn p{
+    font-weight: 300;
+    color: black;
+    font-family: "Risque", serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactinfo .box .text{
+    display: flex;
+    font-family: "Anek Odia", sans-serif;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300px;
+}
+
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: brown;
+}
+
+.enquiryform{
+    width: 40%;
+    padding: 40px;
+    background: slategray;
+}
+
+.enquiryform h2{
+    font-size: 30px;
+    color: #333;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
+}
+
+.enquiryform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.enquiryform .inputBox input, .enquiryform .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.enquiryform .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.enquiryform .inputBox textarea:focus ~ span,
+.enquiryform .inputBox input:valid ~ span,
+.enquiryform .inputBox textarea:valid ~ span,
+.enquiryform .inputBox input:focus ~ span
+{
+    color: cornflowerblue;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.enquiryform .inputBox input[type="submit"]{
+    width: 200px;
+    background: #00bcd4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}

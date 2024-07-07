@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    margin: 1px;
+    padding: 1px;
+    background-color: #333;
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    color: #fff;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-size: 20px;
+}

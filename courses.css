@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 20px;
+    text-align: center;
+    color: orangered;
+    font-family: "Signika Negative", sans-serif;
+}
+
+p{
+    margin: 5px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    font-family: "Rasa", serif;
+    font-size: 19px;
+}
+
+h2{
+    margin: 10px;
+    padding: 5px;
+    color: sandybrown;
+    text-align: left;
+    font-family: "Kodchasan", sans-serif;
+    text-align: center;
+}
+
+ol{
+    list-style: none;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+ol li{
+    font-family: "Cambay", sans-serif;
+}
